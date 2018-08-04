@@ -59,12 +59,12 @@ a:hover {
 }
 
 .beach {
-	height:260px;
-	width:390px;
-	transform:rotate(89.5deg);
+	height:390px;
+	width:260px;
+	transform:rotate(0.5deg);
 	position: absolute;
-	right: 740px;	
-	bottom: 310px;
+	right: 770px;	
+	bottom: 250px;
 	z-index:-1;
 }
 
