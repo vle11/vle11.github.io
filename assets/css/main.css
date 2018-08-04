@@ -22,24 +22,30 @@ body {
 
 p {
 	font-size:15px;
-	margin-left: 700px;
-	margin-top:520px;
-	margin-right:50px;
+	width:450px;
+	margin-left:850px;
+	margin-top:600px;
 	bottom:20px;
 }
 
 
-.next {
+.menu {
 	font-size: 15px;
-	color:red;
 	position: absolute;
-	right:20px;	
+	left:20px;	
 	bottom: 20px;
+}
+
+li{
+	padding-bottom:8spx;
+}
+
+a {
+	color:white;
 	text-decoration:none;
 }
 
-.next:hover {
-	text-align:right;
+a:hover {
 	color:salmon;
 }
 
