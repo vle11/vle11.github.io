@@ -1,0 +1,278 @@
+body {
+	background-color: black;
+	color: white;
+	font-family: helvetica;
+}
+
+a{
+	color: white;
+	text-decoration: none;
+}
+
+a:hover {
+	font-style: italic;
+}
+
+u {
+  text-decoration: underline;
+}
+
+i {
+  font-style: italic;
+}
+
+.boockup-container {
+  position: absolute;
+  z-index: -1;
+}
+
+/*Splash page css*/
+
+/*.splash-container {
+  width: 100vw;
+  height: 100vh;
+  text-align: center;
+  background-image: url(face2.png);
+  background-size: cover;
+}
+
+.splash-container .title {
+  font-size: 1.7vw;
+  font-weight: bold;
+  padding-bottom: 1vw;
+}
+
+.splash-container.img-update{
+	background-image: url(face1.png);
+}*/
+
+/*Home css*/
+
+.home-container {
+  width: 100vw;
+  height: 100vh;
+  text-align: center;
+  background-image: url(face12.png);
+  background-size: cover;
+}
+
+.home-container .title{
+  font-size: 10vw;
+  font-weight: bold;
+}
+
+.home-container .subtitle{
+  font-size: 1.4vw;
+  padding-bottom: 5vw;
+  font-weight: 600;
+}
+
+.home-container.img-update{
+  background-image: url(face11.png);
+  background-size: cover;
+}
+
+.subtitle a{
+  background-color: black;
+  padding: 0.07em 0.3em;
+}
+
+.subtitle a:hover {
+  background-color: transparent;
+}
+
+
+/*Menu css*/
+
+.menu-container {
+  width: 100vw;
+  height: 100vh;
+}
+
+.menu-container .item {
+  font-size: 9vw;
+  text-align: center;
+}
+
+.menu-container.img-update-home{
+  background-image: url(face3.png);
+  background-size: cover;
+}
+
+.menu-container.img-update-essay{
+  background-image: url(face4.png);
+  background-size: cover;
+}
+
+.menu-container.img-update-buy{
+  background-image: url(face5.png);
+  background-size: cover;
+}
+
+.menu-container.img-update-about{
+  background-image: url(face6.png);
+  background-size: cover;
+}
+
+/*Header*/
+
+.header {
+  position: fixed;
+  mix-blend-mode: exclusion;
+  width: 100vw;
+  height: 4vw;
+  padding: 0vw 1.2vw;
+}
+
+.header .title{
+  font-size: 2vw;
+  font-weight: bold;
+}
+
+.header .menu{
+  text-align: right;
+}
+
+
+/*Essay css*/
+
+.essay-title-container {
+  width: 100vw;
+  height: 95vh;
+}
+
+.essay-title-container h1 {
+  width: 100vw;
+  font-size: 7.2vw;
+  text-align: center;
+}
+
+.essay-title-container h2 {
+  width: 100vw;
+  font-size: 0.8vw;
+  text-align: center;
+  margin-top: 1.4vw;
+}
+
+.essay-container{
+  margin: 1vw 16vw;
+  padding-bottom: 8vw;
+  font-size: 1.6vw;
+  hyphens: auto;
+  line-height: 2vw;
+}
+
+.essay-container .indent {
+  text-indent: 6vw;
+}
+
+.essay-container .subtitle {
+  text-indent: 16vw;
+  font-style: italic;
+  font-size: 2vw;
+  line-height: 2.8vw;
+}
+
+.essay-image-container img {
+  position: absolute;
+  z-index: -1;
+}
+
+.face8 {
+  width: 16vw;
+  right: 11.4vw;
+  top: 20vh;
+}
+
+.face9{
+  width: 23vw;
+  right: 2vw;
+  top: 109vh;
+}
+
+.face10{
+  width: 15vw;
+  left:4vw;
+  top:210vh;
+}
+
+.face1{
+  width: 20vw;
+  right:2vw;
+  top:339vh;
+}
+
+.face11{
+  width: 14vw;
+  left:4vw;
+  top:498vh;
+}
+
+.face12{
+  width: 16vw;
+  right:6vw;
+  top:600vh;
+}
+
+.face13{
+  width: 25vw;
+  left:6vw;
+  top:699vh;
+} 
+
+
+/*Buy css*/
+
+.buy-title-container {
+  width: 100vw;
+  height: 97vh;
+  text-align: center;
+}
+
+.buy-title-container img{
+  width: 32vw;
+}
+
+.buy-title-container .image-container{
+  padding-top: 7vw;
+  padding-left: 50vw;
+  position: relative;
+  z-index: -2;
+}
+
+.buy-image-container img{
+  padding: 15vh 0vw; 
+  margin-left: 12.4vw;
+  width: 75vw;
+}
+
+/*About css*/
+
+.about-container{
+  width: 100vw;
+  height: 100vh;
+  background-image: url(self-eye.gif);
+  background-size: cover;
+}
+
+.about-container .item{
+  text-align: center;
+  padding-bottom: 2vw;
+}
+
+.about-header {
+  mix-blend-mode: normal;
+}
+
+.about-container .description{
+  position: relative;
+  z-index: 1;
+  padding: 4vw 2vw 0vw 2vw;
+  hyphens: auto;
+  margin-top: 1vw;
+}
+
+
+
+
+
