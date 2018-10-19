@@ -56,11 +56,26 @@ $('.img-about').mouseleave(function() {
 
 });
 
-// Loader
+//Home
 
-$(window).load(function() {
-	$(".se-pre-con").fadeOut("slow");;
+$(document).ready(function(){
+
+
+
+$('.subtitle').mouseenter(function() {
+    $('.subtitle').addClass('active');
+ });
+
+$('.subtitle').mouseleave(function() {
+    $('.subtitle').removeClass('active');
+  });
+
+
+
+
 });
+
+
 
 
 

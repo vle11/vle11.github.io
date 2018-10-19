@@ -77,7 +77,7 @@ i {
   padding: 0.07em 0.3em;
 }
 
-.subtitle a:hover {
+.subtitle.active a {
   background-color: transparent;
 }
 
