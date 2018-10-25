@@ -1,0 +1,108 @@
+body {
+	background-color:mistyrose;
+	font-family:verdana;
+	width:100%;
+    min-width:1000px;
+    height:auto;
+}
+
+.name {
+	color:white;
+	font-size:30px;
+	color:white;
+	text-align:center;
+	text-decoration: underline; 
+	background-color:black;
+	padding-top:4px;
+	padding-bottom:6px;
+	margin-top:20px;
+	margin-right:1195px;
+	margin-left: 20px;
+}
+
+p {
+	font-size:15px;
+	width:450px;
+	margin-left:850px;
+	margin-top:600px;
+	bottom:20px;
+}
+
+
+.menu {
+	font-size: 15px;
+	position: absolute;
+	left:20px;	
+	bottom: 20px;
+}
+
+li{
+	padding-bottom:8px;
+}
+
+a {
+	color:white;
+	text-decoration:none;
+}
+
+a:hover {
+	color:salmon;
+}
+
+.kiki {
+	height:110px;
+	width:200px;
+	position: absolute;	
+	right:500px;
+	bottom:250px;
+	z-index:-2;
+}
+
+.beach {
+	height:390px;
+	width:260px;
+	transform:rotate(0.5deg);
+	position: absolute;
+	right: 770px;	
+	bottom: 250px;
+	z-index:-1;
+}
+
+.pho {
+	height:160px;
+	width:270px;
+	position:absolute;
+	bottom:440px;
+	right:870px;
+	transform:rotate(0.5deg);
+
+}
+
+.udon {
+	height:280px;
+	width:190px;
+	position:absolute;
+	bottom:250px;
+	right:620px;
+	z-index:-3;
+}
+
+.shy {
+	height:130px;
+	width:255px;
+	position:absolute;
+	right:660px;
+	bottom:150px;
+	z-index:-2;
+}
+
+.cloud {
+	height:170px;
+	width:170px;
+	position:absolute;
+	right:640px;
+	bottom:410px;
+	z-index:-4;
+}
+
+

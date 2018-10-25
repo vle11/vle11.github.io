@@ -26,26 +26,6 @@ i {
   z-index: -1;
 }
 
-/*Splash page css*/
-
-/*.splash-container {
-  width: 100vw;
-  height: 100vh;
-  text-align: center;
-  background-image: url(face2.png);
-  background-size: cover;
-}
-
-.splash-container .title {
-  font-size: 1.7vw;
-  font-weight: bold;
-  padding-bottom: 1vw;
-}
-
-.splash-container.img-update{
-	background-image: url(face1.png);
-}*/
-
 /*Home css*/
 
 .home-container {
@@ -176,9 +156,11 @@ i {
 .essay-image-container img {
   position: absolute;
   z-index: -1;
+  display: run-in;
 }
 
 .face8 {
+  position: absolute !important;
   width: 16vw;
   right: 11.4vw;
   top: 20vh;
@@ -188,6 +170,12 @@ i {
   width: 23vw;
   right: 2vw;
   top: 109vh;
+}
+
+.face9.face9-hover{
+  width: 50vw;
+  top: 50vw;
+  left: 50vw;
 }
 
 .face10{
