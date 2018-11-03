@@ -1,15 +1,5 @@
 $(document).ready(function(){
 
-// Splash
-
-// $('.img-change').mouseenter(function() {
-//     $('.splash-container').addClass('img-update');
-//  });
-
-// $('.img-change').mouseleave(function() {
-//     $('.splash-container').removeClass('img-update');
-//   });
-
 // Menu
 
 $('.img-home').mouseenter(function() {
@@ -64,21 +54,6 @@ $('.subtitle').mouseenter(function() {
 
 $('.subtitle').mouseleave(function() {
     $('.subtitle').removeClass('active');
-  });
-
-});
-
-//Essay
-
-$(document).ready(function(){
-
-
-$('.face9').mouseenter(function() {
-    $('.face9').addClass('face9-hover');
- });
-
-$('.face9').mouseleave(function() {
-    $('.face9').removeClass('face9-hover');
   });
 
 });
